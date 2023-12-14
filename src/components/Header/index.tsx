@@ -34,7 +34,7 @@ export default function Header(){
                 <div className="ricardoimg">
                 </div>
                 {/*<p>Ricardo Souza</p>*/}
-                <Link to="/devperfil" className="a">
+                <Link to="/login" className="a">
                   {/* <a href="#">
                     Ricardo Souza
                   </a>  */}
