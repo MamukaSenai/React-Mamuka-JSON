@@ -1,6 +1,7 @@
 import './style.css';
 import React, { useState, useEffect } from 'react';
-import api from "../../../utils/api"
+import api from "../../../utils/api";
+import { Link } from "react-router-dom";
 import axios from 'axios';
 
 
@@ -22,7 +23,7 @@ export default function GestorProjetos() {
   const [filtroTermo, setFiltroTermo] = useState('');
 
   useEffect(() => {
-    api.get('/projetos')
+    api.get("projetos")
       .then(response => {
         setDados(response.data);
       })
@@ -30,6 +31,8 @@ export default function GestorProjetos() {
         console.error("A conexão falhou =/", error);
       });
   }, []);
+
+  
 
   const getStatusClassName = (status: string) => {
     switch (status.toLowerCase()) {
@@ -53,7 +56,6 @@ export default function GestorProjetos() {
   };
 
   const dadosFiltrados = filtrarDados();
-
 
   return (
     <div>
@@ -92,8 +94,8 @@ export default function GestorProjetos() {
           {dadosFiltrados.map(item => (
             <tr key={item.id}>
               <td>{item.id}</td>
-              <td>{item.nome_projeto}</td>
-              <td>{item.data_inicio} - {item.data_conclusao}</td>
+              <td><Link to="/devdemandas" className="link">{item.nome_projeto} </Link></td>
+              <td>{item.data_inicio} a {item.data_conclusao}</td>
               <td className={getStatusClassName(item. status_projeto)}>{item. status_projeto}</td>
               <td>{item.responsavel}</td>
             </tr>

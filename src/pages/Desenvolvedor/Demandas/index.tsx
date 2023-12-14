@@ -1,10 +1,14 @@
 import './style.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import api from "../../../utils/api";
+import { Link } from "react-router-dom";
+import axios from 'axios';
+
 
 interface UserData {
   id: number;
 //   grupo: string;
-  projeto: string;
+  tarefa: string;
   cronograma: string;
   status: string;
   responsavel: string;
@@ -13,6 +17,8 @@ interface UserData {
 export default function DesenvolvedorDemandas() {
   const [filtroStatus, setFiltroStatus] = useState('');
   const [filtroTermo, setFiltroTermo] = useState('');
+
+  
 
   const getStatusClassName = (status: string) => {
     switch (status.toLowerCase()) {
@@ -31,33 +37,33 @@ export default function DesenvolvedorDemandas() {
     {
       id: 1,
     //   grupo: 'testestestestestestestes',
-      projeto: 'Projeto teste',
-      cronograma: '02/06/2025',
-      status: 'Cancelado',
-      responsavel: 'Roberto',
+      tarefa: 'Tarefa 01',
+      cronograma: '2023-11-15 a 2023-11-20',
+      status: 'Concluido',
+      responsavel: 'Ricardo Souza',
     },
     {
       id: 2,
     //   grupo: 'testestestestestestestes',
-      projeto: 'Projeto 01',
-      cronograma: '02/06/2025',
-      status: 'Andamento',
-      responsavel: 'Andre',
+      tarefa: 'Tarefa 02',
+      cronograma: '2023-11-21 a 2023-11-30',
+      status: 'Concluido',
+      responsavel: 'Ricardo Souza',
     },
     {
         id: 3,
         // grupo: 'testestestestestestestes',
-        projeto: 'Projeto 04',
-        cronograma: '02/06/2025',
-        status: 'Concluido',
-        responsavel: 'Andre',
+        tarefa: 'Tarefa 03',
+        cronograma: '2023-12-01 a 2023-12-14',
+        status: 'Andamento',
+        responsavel: 'Ricardo Souza',
       },
       {
         id: 4,
         // grupo: 'testestestestestestestes',
-        projeto: 'Projeto 05',
-        cronograma: '02/06/2023',
-        status: 'Concluido',
+        tarefa: 'Tarefa teste',
+        cronograma: '2023-12-14 a 2023-12-28',
+        status: 'Andamento',
         responsavel: 'Jose',
       },
     // ... outros dados aqui
@@ -67,7 +73,7 @@ export default function DesenvolvedorDemandas() {
   const filtrarDados = () => {
     return dados.filter(item =>
       item.status.toLowerCase().includes(filtroStatus.toLowerCase()) &&
-      (item.projeto.toLowerCase().includes(filtroTermo.toLowerCase()) ||
+      (item.tarefa.toLowerCase().includes(filtroTermo.toLowerCase()) ||
        item.responsavel.toLowerCase().includes(filtroTermo.toLowerCase()))
     );
   };
@@ -92,10 +98,10 @@ export default function DesenvolvedorDemandas() {
       </div>
       {/* Input para a barra de busca de nome e responsável */}
       <div className='filtro-tarefa-responsavel'>
-      {/* <label>Pesquisar por Projeto/Responsável:</label> */}
+      {/* <label>Pesquisar por Tarefa/Responsável:</label> */}
       {/* <input
         type="text"
-        placeholder="Digite o Projeto ou responsável"
+        placeholder="Digite o Tarefa ou responsável"
         value={filtroTermo}
         onChange={(e) => setFiltroTermo(e.target.value)}
       /> */}
@@ -104,9 +110,9 @@ export default function DesenvolvedorDemandas() {
       <table className='tabela-geral-tarefa'>
         <thead className='header-tabela-tarefa'>
           <tr>
-            <th>ID</th>
+            {/*<th>ID</th>*/}
             {/* <th>Grupo</th> */}
-            <th>Projeto</th>
+            <th>Tarefa</th>
             <th>Cronograma</th>
             <th>Status</th>
             <th>Responsável</th>
@@ -115,9 +121,9 @@ export default function DesenvolvedorDemandas() {
         <tbody className='corpo-tabela-tarefa'>
           {dadosFiltrados.map(item => (
             <tr key={item.id}>
-              <td>{item.id}</td>
+              {/*<td>{item.id}</td>*/}
               {/* <td>{item.grupo}</td> */}
-              <td>{item.projeto}</td>
+              <td>{item.tarefa}</td>
               <td>{item.cronograma}</td>
                <td className={getStatusClassName(item.status)}>{item.status}</td>
               <td>{item.responsavel}</td>

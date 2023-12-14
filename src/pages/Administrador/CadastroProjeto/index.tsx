@@ -13,9 +13,7 @@ import secureLocalStorage from "react-secure-storage";
 
 export default function CadastroProjeto(props: any) {
 
-    secureLocalStorage.getItem("user")
 
-    const id_usuario = "user"
     const [nome_projeto, setNomeProjeto] = useState<string>("");
     const [status_projeto, setStatusProjeto] = useState<string>("");
     const [data_inicio, setDataInicio] = useState<string>("");
@@ -37,7 +35,7 @@ export default function CadastroProjeto(props: any) {
 
         //A chave da função do append() precisa ser o mesmo nome_projeto do atributo que api retorna
        
-        formData.append("id_usuario", id_usuario);
+
         formData.append("nome_projeto", nome_projeto);
         formData.append("status_projeto", status_projeto);
         
@@ -51,7 +49,7 @@ export default function CadastroProjeto(props: any) {
         console.log("chamadaaa API");
 
 
-        api.post("/projetos", formData).then((response) => {
+        api.post("projetos", formData).then((response) => {
             console.log(response)
             alert("Projeto criado com sucesso! 😊🤗")
             // Navegação para login

@@ -11,14 +11,14 @@ function Login2() {
 
     const [ email, setEmail ] = useState<string>("")
     const [ senha, setSenha ] = useState<string>("")
-    const [ idUsuario, setUsuario ] = useState<string>("")
+   
     function fazerLogin(event: any) {
         event.preventDefault()
 
         const usuario: object = {
             email: email,
             password: senha,
-            id_usuario: idUsuario
+            
         }
 
         api.post("login", usuario).then( (response) => {

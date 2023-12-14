@@ -82,7 +82,7 @@
 /* Quando a resolução for menor que 1200px esconde o campo de busca */
 @media screen and (max-width: 1200px) 
 {
-    #menuGeral {
+   /*  #menuGeral {
         padding-left: 50px;
         padding-right: 50px; 
     }
@@ -92,6 +92,5 @@
         text-align: center; 
         padding-left: 50px;
         padding-right: 50px; 
-    }
-
+    }*/
 }

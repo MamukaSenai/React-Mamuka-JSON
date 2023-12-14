@@ -64,7 +64,7 @@ export default function CadastroUsuario(props: any) {
 
         formData.append("cargo", cargo);
         formData.append("email", email);
-        formData.append("senha", senha);
+        formData.append("password", senha);
 
         
         //const [ listaUsuarios, setListasUsuarios] = useState <String[]>([])
@@ -75,7 +75,7 @@ export default function CadastroUsuario(props: any) {
         console.log("chamadaaa API");
         
 
-        api.post("/usuarios", formData).then((response) => {
+        api.post("usuarios", formData).then((response) => {
             console.log(response)
             alert("Usuário criado com sucesso! 😊🤗")
             // Navegação para login

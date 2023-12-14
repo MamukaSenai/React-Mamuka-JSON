@@ -25,8 +25,8 @@ ChartJS.register(
 );
 // acima temos os códigos dos imports da tabela e as funções da biblioteca do chartjs
 // aqui temos variaveis que guardam os dados da tabela
-let projetos = [13, 18, 10, 2];
-let desenvolvedores = ["Bruno Peripato", "Luciano Franca", "Claudio Trellini", "Nicolas de Oliveira"];
+let projetos = [4, 8, 5, 1];
+let desenvolvedores = ["Ricardo Souza", "Luciano Franca", "Richard Jesus", "Nicolas de Oliveira"];
 // const config = {
 //     type: 'bar',
 //     options: {
@@ -69,7 +69,7 @@ let misoptions = {
     scales: {
         y: {
             min: 0,
-            max: 100
+            max: 20
         },
         x: {
             ticks: { color: '#000000'}

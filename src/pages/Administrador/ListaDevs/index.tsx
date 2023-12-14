@@ -30,7 +30,7 @@ export default function ListaDevs() {
         }
 
         // Requisicao para a api, para trazer todos os users
-        api.get("/usuarios").then((response: any) => {
+        api.get("usuarios").then((response: any) => {
             console.log(response.data)
             setDevs(response.data)
         })
@@ -66,7 +66,7 @@ export default function ListaDevs() {
 
 
     function listarUsuarios() {
-        api.get("/usuarios").then((response: any) => {
+        api.get("usuarios").then((response: any) => {
             //console.log(response.data)
             setDevs(response.data)
         })

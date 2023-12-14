@@ -4,6 +4,7 @@
   /* margin-bottom: 20px; */
   /* margin-top: 10px;   */
   margin: 0 auto;
+  text-decoration: none;
   }
 
 th,
@@ -11,12 +12,14 @@ td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
+  text-decoration: none;
 }
 
 th {
   background-color: #0073EA;
-  color: #ffffff;
+  color: var(--branco);
   font-size: 18px;
+
 }
 
 .status-concluido {
@@ -85,3 +88,7 @@ th {
   margin-right: 3%;
 }
 
+.link{
+  text-decoration: none;
+  color: black;
+}

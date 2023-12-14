@@ -40,7 +40,7 @@ export default function CadastroProjeto(props: any) {
         console.log("chamadaaa API");
         
 
-        api.post("/tarefas", formData).then((response) => {
+        api.post("tarefas", formData).then((response) => {
             console.log(response)
             alert("Projeto criado com sucesso! 😊🤗")
             // Navegação para login

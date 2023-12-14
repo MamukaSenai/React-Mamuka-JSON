@@ -74,17 +74,17 @@ var options = {
 };
 
 var data = {
-    labels: ['Cancelado', 'Em Andamento', 'Concluidos', 'Não alocados'],
+    labels: ['Cancelado', 'Em Andamento', 'Concluidos'],
     datasets: [
         {
             label: 'Projetos',
-            data: [3, 43, 10, 13],
+            data: [1, 16, 10],
             backgroundColor: [
                 '#E44358',
                 '#FFCB00',
                 // 'rgba(54, 162, 235, 0.2)',
                 '#00CA72',
-                '#DBDBDB',
+                //'#DBDBDB',
             ],
             borderColor: [
                 '#E44358',
