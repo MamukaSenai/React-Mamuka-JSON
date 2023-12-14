@@ -1,0 +1,215 @@
+/* MAIN */
+main#lista-devs {
+    /* background-image:
+        linear-gradient(180deg, #060821 0%, #06082120 25%, #0608218f 80%, #060821 100%),
+        url("../../assets/img/background_login.png"); */
+    /* background-color: var(--cinzaclaro); */
+    min-height: calc(100vh - 339px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container_lista_devs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.lista_devs_conteudo {
+    width: 100%;
+    max-width: 900px;
+
+    padding: 10vh 0;
+    margin-top: 6vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(114.61deg, #ffffff0d 1.08%, #ffffff1e 99.26%);
+    box-shadow: 30px 30px 60px #00000080;
+    border-top: 10px solid var(--azulClaro);
+    border-bottom: 10px solid var(--azulClaro);
+    border-left: 2px solid var(--cinzaclaro);
+    border-right: 2px solid var(--cinzaclaro);
+    border-radius: 10px;
+
+    /* border: 1px solid #ffffffcc;
+    border-radius: 80px; */
+    backdrop-filter: blur(10px);
+    /* color: var(--branco); */
+    
+}
+
+#lista-devs h1 {
+    /* font-family: var(--font1); */
+    color: var(--cinzaclaro);
+    font-size: 50px;
+    text-align: center;
+}
+
+#lista-devs hr {
+    margin: 20px auto;
+    width: 80%;
+    height: 4px;
+    background-color: var(--azulClaro);
+    border: none;
+    border-radius: 50%;
+}
+
+.lista_devs_conteudo form {
+    width: 85%;
+    padding: 20px 0;
+}
+
+/* 
+.wrapper_lista:checked~{
+
+} */
+
+.wrapper_lista {
+    /* display: none; */
+    width: 85%;
+}
+
+.wrapper_form {
+    height: 95px;
+    width: 85%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.wrapper_form label {
+    /* font-family: var(--font2); */
+    color: var(--cinzaclaro);
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+.campo-label input {
+
+    height: 10vh;
+    /* width: 90%; */
+
+
+    padding: 5% 5% 5% 10%;
+
+    border: 1px solid #909090;
+    border-radius: 20px;
+
+    background: linear-gradient(136deg, #ffffff1a 0%, #ffffff0b 100%);
+    backdrop-filter: blur(15px);
+    /* box-shadow: 30px 30px 60px 0px #00000080; */
+
+    font-size: 16px;
+    color: var(--cinzaclaro);
+    caret-color: var(--cinzaclaro);
+}
+
+.campo-label input:focus-visible {
+    outline: 2px solid white;
+}
+
+.campo-label button {
+    width: 30%;
+
+    border: 4px solid white;
+    border-radius: 10px;
+    padding-left: 4%;
+    padding-right: 5%;
+    
+
+    background-color: transparent;
+    color: var(--branco);
+    background-color: var(--azulescuro);
+    /* color: white; */
+    /* font-family: var(--font1); */
+    text-transform: uppercase;
+}
+
+.campo-label button:hover {
+    background-color: #8a214f;
+    cursor: pointer;
+}
+
+.campo-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista_devs_conteudo ul {
+    list-style: none;
+    
+}
+
+.lista_devs_conteudo li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #ffffff34;
+}
+
+.dev {
+    height: 70px;
+    width: 85%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* font-family: var(--font2); */
+}
+
+.grupo_contato {
+    height: 100%;
+    width: 70%;
+
+    display: flex;
+
+}
+
+.contato_dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.grupo_contato img {
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.grupo_contato h2 {
+    font-size: 24px;
+    /* font-family: var(--font2); */
+    text-transform: capitalize;
+}
+
+.grupo_contato p {
+    font-size: 14px;
+}
+
+.techs {
+    width: 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.techs span {
+    font-size: 14px;
+    padding: 2px 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: var(--azulP);
+}

@@ -1,0 +1,36 @@
+.tabela-geral-tarefa {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #0073EA;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.status-concluido {
+  font-weight: 800;
+  color: #000000;
+  background-color: #26CB7B;
+}
+
+.status-andamento {
+  font-weight: 800;
+  color: #000000;
+  background-color: #F9784F;
+}
+
+.status-cancelado {
+  font-weight: 800;
+  color: #ffffff;
+  background-color: #D12828;
+}

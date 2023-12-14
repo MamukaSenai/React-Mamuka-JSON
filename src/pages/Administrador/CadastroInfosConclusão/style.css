@@ -1,0 +1,140 @@
+#rightConclusao {
+
+    display: flex;
+    flex-direction:column-reverse;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#CadastroConclusao 
+{
+    margin-bottom: 39.8vh;
+    
+    /* margin-left: 50px; */ 
+    
+}
+
+#CadastroConclusao .linha_sup_status
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        font-size: 20px;
+     }
+
+#CadastroConclusao .linha_sup_esq
+     {
+        text-transform: capitalize;
+        color: var(--cinzaclaro);
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        
+        padding-top: 6px;
+        flex-direction: row-reverse;    
+        margin-left: 60px;
+        margin-top: 5px;  
+     }
+
+#CadastroConclusao .linha_sup_dir {
+         text-transform: capitalize;
+         border-radius: 7px;
+         font-size: 20px;
+         border: 1px solid var(--cinzaclaro);
+         display: flex;
+         margin: 10px;
+         justify-content: flex-end;
+}
+
+#CadastroConclusao .destaque2{
+    padding: 6px;
+    text-decoration: none;
+    color:var(--cinzaclaro);
+    
+}
+
+
+#CadastroConclusao .destaque{
+   background-color: var(--azulescuro);
+   display: flex;
+   border-radius: 7px;
+   color:var(--branco);
+   text-decoration: none;
+   padding: 6px;
+   color: var(--branco);
+}
+
+#CadastroConclusao .formulario img {
+    width: 100px;
+}
+
+#CadastroConclusao .formulario
+     {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         margin: 0 auto;
+         padding-top: 20px;
+         width: 300px;
+         
+         border-top: 10px solid var(--azulClaro);
+         border-bottom: 10px solid var(--azulClaro);
+         border-left: 2px solid var(--cinzaclaro);
+         border-right:  2px solid var(--cinzaclaro);
+         justify-content: center;
+         border-radius: 10px;
+     }
+ 
+ #CadastroConclusao .formulario button
+     {
+         margin: 30px;
+         border-radius: 5px;
+         font-size: 20px;
+         color: var(--branco);
+         background-color: var(--azulescuro); 
+         padding-left: 20px;
+         padding-right: 20px;
+         margin-top: 20%;
+         display: flex;
+         text-transform: capitalize;
+         font-weight: bold;
+       }
+       
+#CadastroConclusao .formulario a {
+        text-decoration: none;
+        color: var(--branco);
+}
+
+ 
+ #CadastroConclusao .salvar{
+         color: var(--branco);
+         text-transform: capitalize;
+}
+
+#CadastroConclusao .label_mail
+    {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    color: var(--branco);
+    }
+
+#CadastroConclusao .label_mail label 
+    {
+    color: var(--cinzaclaro);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    }
+
+#CadastroConclusao .label_mail input {
+    height: 30px;
+    width: 250px;
+    border-radius: 7px;
+    border: solid 1px;
+    text-indent: 5px;
+    font-size: 15px;
+    color: var(--cinzaclaro);
+}

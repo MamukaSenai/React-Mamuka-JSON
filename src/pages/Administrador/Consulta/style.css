@@ -1,0 +1,186 @@
+#AdministradorConsulta {
+    height: 100vh;
+    display: flex;
+    align-items: end;
+}
+
+
+#AdministradorConsulta .right  {
+
+    display: flex;
+    flex-direction:column-reverse;
+    width: 93.8vw; 
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
+
+
+#AdministradorConsulta .formi {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 450px;
+    display: flex;
+    
+    border-top: 10px solid var(--azulClaro);
+    border-bottom: 10px solid var(--azulClaro);
+    border-left: 2px solid var(--cinzaclaro);
+    border-right:  2px solid var(--cinzaclaro);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#AdministradorConsulta .formi img {
+    height: 100px;
+    margin-top: 15px;
+    margin-right: 15px;
+} 
+
+#AdministradorConsulta .perfil_img {
+    /* background-image: url("#AdministradorConsulta .#AdministradorConsulta ./#AdministradorConsulta .#AdministradorConsulta ./#AdministradorConsulta .#AdministradorConsulta ./assets/PessoaCadastro#AdministradorConsulta .png") no-repeat ; */
+    /* height: 100px; */
+}
+#AdministradorConsulta .formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#AdministradorConsulta .formulario1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 230px;
+    
+    border-top: 10px solid var(--azulClaro);
+    border-bottom: 10px solid var(--azulClaro);
+    border-left: 2px solid var(--cinzaclaro);
+    border-right:  2px solid var(--cinzaclaro);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+
+
+#AdministradorConsulta button
+{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: var(--branco);
+    background-color: var(--azulescuro); 
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    display: flex;
+    flex-direction:column;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+
+  
+#AdministradorConsulta .formulario1 button{
+    border-radius: 5px;
+    font-size: 20px;
+    color: var(--branco);
+    background-color: var(--azulescuro); 
+    margin-top: 20px;
+    margin-left: 250px;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+
+
+#AdministradorConsulta .label_mail
+    {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    color: var(--branco);
+    }
+
+#AdministradorConsulta .label_mail1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    color: var(--branco);
+}    
+
+#AdministradorConsulta .label_mail2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    color: var(--branco);
+} 
+
+#AdministradorConsulta .label_mail label 
+    {
+    display: flex;
+    color: var(--cinzaclaro);
+    font-size: 15px;
+    }
+
+#AdministradorConsulta .label_mail input 
+    {
+    height: 30px;
+    width: 250px;
+    border-radius: 7px;
+    border: solid 1px;
+    text-indent: 5px;
+    font-size: 15px;
+    background-color: var(--branco);
+    /* color: var(branco); */
+    }
+
+#AdministradorConsulta .label_mail1 input {
+    height: 30px;
+    width: 350px;
+    border-radius: 7px;
+    border: solid 1px;
+    text-indent: 5px;
+    font-size: 15px;
+    background-color: var(--branco);
+    /* color: var(branco); */
+}
+
+#AdministradorConsulta .label_mail2 input {
+    height: 30px;
+    width: 200px;
+    margin-right: 150px;
+    border-radius: 7px;
+    border: solid 1px;
+    text-indent: 5px;
+    font-size: 15px;
+    background-color: var(--branco);
+    /* color: var(branco); */
+}
+
+
+#AdministradorConsulta .historico {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    /* margin-right: 85%; */
+    color: var(--cinzaclaro);
+}
+
+.btn {
+    display: flex;
+    margin-left: 16vh;
+}

@@ -1,0 +1,110 @@
+#CriarProjetos {
+    height: 88vh;
+    width: 100vw;  
+    display: flex;
+    
+}
+
+#CriarProjetos .gestor {
+    
+    color: var(--cinzaclaro);
+    margin-top: 15px;
+    
+}
+
+
+#CriarProjetos .right {
+
+    display: flex;
+    flex-direction:column-reverse;
+    height: 93vh;
+    width:64vw;
+    margin-right: 20vh;
+}
+
+#CriarProjetos .container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#CriarProjetos .formulario{
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    border-width: 5px 1px;
+    border-color:#0073EA #7C7C7C;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+section {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+   
+}
+
+#CriarProjetos .input-box{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+#CriarProjetos .input-box > input {
+    border-radius: 3px;
+    border: 1px solid var(--cinzaclaro);
+    color: var(--cinzaclaro);
+}
+
+#CriarProjetos .input-box > label {
+    display: flex;
+}
+
+
+#CriarProjetos .input-box > textarea{
+    border-radius: 5px;
+}
+
+
+#CriarProjetos .linha1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#CriarProjetos .linha2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+#CriarProjetos .continue-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+}
+
+
+#CriarProjetos .continue-button button{
+    margin-top: 2%;
+    padding: 2px 5px 2px 5px;
+    color: white;
+    background-color: #405189;
+    border-radius: 4px;
+    font-weight: bold;
+}

@@ -1,0 +1,167 @@
+#AdministradorLogin .main-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#AdministradorLogin .left-login {
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#AdministradorLogin .left-login img{
+    max-width: 500%;
+    width: 50%;
+    max-height: 500%;
+    height: 50%;
+}
+
+#AdministradorLogin .left-login h1 {
+    
+    color: #405189;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+#AdministradorLogin .right-login {
+    width: 35vw;
+    height: 100vh;
+    background: #405189;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#AdministradorLogin .card-login {
+    width: 70%;
+    height: 100vh;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#AdministradorLogin .card-login img {
+    width: 180px;
+    padding: 15px 0px 50px 0px;
+    
+}
+
+#AdministradorLogin .card-login a {
+    color: #ffff;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+
+
+#AdministradorLogin .card-login h1 {
+    color: #ffff;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 20px 0px 0px 0px;
+}
+
+#AdministradorLogin .unlearn a {
+    padding: 0px 0px 0px 200px;
+}
+
+#AdministradorLogin .textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    font-size: 23px;
+}
+
+#AdministradorLogin .textfield a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+#AdministradorLogin .textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-sizing: border-box;
+}
+
+#AdministradorLogin .textfield > label {
+    color: #ffff;
+    margin-bottom: 3px;
+}
+
+#AdministradorLogin .textfield > input::placeholder {
+    color: #7C7C7C;
+}
+
+
+#AdministradorLogin .btn-login {
+    width: 50%;
+    padding: 8px 0px;
+    margin: 50px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #ffff;
+    background: #0073EA;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+
+
+@media screen and (max-width:900px){
+    #AdministradorLogin .left-login{
+        display: none;
+        
+    }
+    #AdministradorLogin .geral{
+        align-items: center;
+        justify-content: center;
+        background: var(--azulescuro);
+
+    }
+    #AdministradorLogin .unlearn{
+        align-items: center;
+        padding: 15px 0;
+
+
+    }
+}
+
+@media screen and (min-width:900px){
+    #AdministradorLogin .label, #AdministradorLogin .input{
+        width: 100%;
+
+    }
+}
+
+
+
+@media screen and (max-width:450px){
+    #AdministradorLogin .textfield{
+        width: 80vw;
+
+    }
+    #AdministradorLogin .label, #AdministradorLogin .input{
+        width: 100%;
+
+    }
+}

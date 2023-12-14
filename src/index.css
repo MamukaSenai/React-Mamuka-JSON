@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    resize: none;
+
+}
+/* @font-face {
+    font-family: "Core Sans G";
+    src: url(../fonts/CoreSansG-Regular.ttf);
+=======
+    font-family:"Core Sans G"
+
+} */
+@font-face {
+    font-family: "Core Sans G";
+    src: url(../src/assets/fonts/CoreSansG-Regular.ttf);
+
+}
+/* @font-face {
+    font-family: "Core Sans G";
+    src: url(./assets/Fonts/CoreSansG-Regular.ttf);
+>>>>>>> administrador_cadastro_infos_conclusao
+} */
+
+
+:root{
+    --azulescuro: #405189;
+    --branco: #ffffff;
+    --azulClaro: #0073EA;
+    --cinza: #2C2E3E;
+    --cinzaclaro: #7C7C7C;
+    --font: "Core Sans G";
+    --vermelho: #F22D2D;
+    --laranja: #F9784F;
+    --verde: #26CB7B;
+}
+
+
+body {
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    font-family: var(--font);
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    
+}
+
+

@@ -1,0 +1,60 @@
+/* 
+aside {
+    display: flex;
+    height: 100vh;
+    width: 6.5vw;
+    
+} */
+/* 
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    color: #fff;
+    fill: #fff;
+} 
+
+.menu svg{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 15px;
+}
+
+
+.menu a {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 700;
+    display: flex;
+    color: var(--cinza);
+    text-decoration: none;
+} */
+
+/* Estilizando o botao dropdown no bootstrap */
+/* 
+#dropdown-basic-button {
+    background: none;
+    width: 8vw;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-weight: 900;
+}
+
+.conteudoDropDown {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+} */
+.testess {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    
+}

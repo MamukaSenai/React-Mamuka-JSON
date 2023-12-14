@@ -1,0 +1,99 @@
+#CriarDemandas {
+    height: 88vh;
+    width: 100vw;  
+    display: flex;
+}
+
+#CriarDemandas .gestor {
+    color: var(--cinzaclaro);
+
+    margin-top: 15px;
+   
+}
+
+#CriarDemandas .right {
+
+    display: flex;
+    flex-direction:column-reverse;
+    height: 93vh;
+    width:64vw;
+    margin-right: 18vh;
+}
+
+
+#CriarDemandas .container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#CriarDemandas .formulario{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    border-width: 5px 1px;
+    border-color:#0073EA #7C7C7C;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#CriarDemandas .input-box{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#CriarDemandas .input-box > label{
+    display: flex;
+
+}
+
+#CriarDemandas .input-box > input {
+    border-radius: 3px;
+    color: var(--cinzaclaro);
+    border: 1px solid var(--cinzaclaro);
+}
+
+#CriarDemandas .input-box > textarea{
+    border-radius: 5px;
+}
+
+
+#CriarDemandas .linha1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#CriarDemandas .linha2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+#CriarDemandas .continue-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+}
+
+
+#CriarDemandas .continue-button button{
+    margin-top: 2%;
+    padding: 2px 5px 2px 5px;
+    color: white;
+    background-color: #405189;
+    border-radius: 4px;
+    font-weight: bold;
+}
+

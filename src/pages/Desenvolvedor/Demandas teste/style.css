@@ -1,0 +1,27 @@
+
+.headertabela{
+    background-color: aqua;
+}
+
+
+.campostatustabela{
+    padding: 5px 20px;
+    border-radius: 25px;
+    width: 8vw;
+}
+
+.andamento {
+    background: #fff0db;
+    color: #f59d39;
+}
+
+.concluido {
+    background: #cff1f0;
+    color: #0dbeb6;
+}
+
+
+.cancelado {
+    background: #fedfe5;
+    color: #ff89a0;
+}

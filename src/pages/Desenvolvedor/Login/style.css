@@ -1,0 +1,167 @@
+#DesenvolvedorLogin .main-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#DesenvolvedorLogin .left-login {
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#DesenvolvedorLogin .left-login img{
+    max-width: 500%;
+    width: 50%;
+    max-height: 500%;
+    height: 50%;
+}
+
+#DesenvolvedorLogin .left-login h1 {
+    
+    color: #405189;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+#DesenvolvedorLogin .right-login {
+    width: 35vw;
+    height: 100vh;
+    background: #405189;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#DesenvolvedorLogin .card-login {
+    width: 70%;
+    height: 100vh;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#DesenvolvedorLogin .card-login img {
+    width: 180px;
+    padding: 15px 0px 50px 0px;
+    
+}
+
+#DesenvolvedorLogin .card-login a {
+    color: #ffff;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+
+
+#DesenvolvedorLogin .card-login h1 {
+    color: #ffff;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 20px 0px 0px 0px;
+}
+
+#DesenvolvedorLogin .unlearn a {
+    padding: 0px 0px 0px 200px;
+}
+
+#DesenvolvedorLogin .textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    font-size: 23px;
+}
+
+#DesenvolvedorLogin .textfield a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+#DesenvolvedorLogin .textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-sizing: border-box;
+}
+
+#DesenvolvedorLogin .textfield > label {
+    color: #ffff;
+    margin-bottom: 3px;
+}
+
+#DesenvolvedorLogin .textfield > input::placeholder {
+    color: #7C7C7C;
+}
+
+
+#DesenvolvedorLogin .btn-login {
+    width: 50%;
+    padding: 8px 0px;
+    margin: 50px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #ffff;
+    background: #0073EA;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+
+
+@media screen and (max-width:900px){
+    #DesenvolvedorLogin .left-login{
+        display: none;
+        
+    }
+    #DesenvolvedorLogin .geral{
+        align-items: center;
+        justify-content: center;
+        background: var(--azulescuro);
+
+    }
+    #DesenvolvedorLogin .unlearn{
+        align-items: center;
+        padding: 15px 0;
+
+
+    }
+}
+
+@media screen and (min-width:900px){
+    #DesenvolvedorLogin .label, #DesenvolvedorLogin .input{
+        width: 100%;
+
+    }
+}
+
+
+
+@media screen and (max-width:450px){
+    #DesenvolvedorLogin .textfield{
+        width: 80vw;
+
+    }
+    #DesenvolvedorLogin .label, #DesenvolvedorLogin .input{
+        width: 100%;
+
+    }
+}

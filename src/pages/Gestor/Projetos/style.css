@@ -1,0 +1,87 @@
+.tabela-geral-projetos {
+  width: 90%;
+  border-collapse: collapse;
+  /* margin-bottom: 20px; */
+  /* margin-top: 10px;   */
+  margin: 0 auto;
+  }
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #0073EA;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.status-concluido {
+  font-weight: 800;
+  color: #000000;
+  background-color: #26CB7B;
+}
+
+.status-andamento {
+  font-weight: 800;
+  color: #000000;
+  background-color: #F9784F;
+}
+
+.status-cancelado {
+  font-weight: 800;
+  color: #ffffff;
+  background-color: #D12828;
+}
+
+.filtro-projeto-responsavel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  /* padding-top: 30px; */
+  padding-top: 20px;
+}
+
+.filtro-projeto-responsavel p {
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.filtro-projeto-responsavel input {
+  height: 7vh;
+  width: 30%;
+  border-radius: 7px;
+  border: solid 1px;
+  text-indent: 5px;
+  font-size: 15px;
+  color: var(--cinzaclaro);
+}
+
+.filtro-status-projetos {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  /* margin-top: 40px; */
+  padding-right: 30px;
+  padding-bottom: 0.5%;
+}
+
+
+
+.filtro-status-projetos select {
+  width: 6%;
+  border-radius: 7px;
+  border: var(--cinzaclaro) solid 1px;
+  text-indent: 5px;
+  font-size: 15px;
+  color: var(--cinzaclaro);
+  margin-left: 1%;
+  margin-right: 3%;
+}
+

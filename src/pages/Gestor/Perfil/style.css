@@ -1,0 +1,251 @@
+/* Main */
+/* define os recuo dentro da area da main */
+#GestorPerfil
+    { 
+        padding: 10px 10px 10px 10px;
+        /* margin-left: 20px; */
+    }
+
+
+#GestorPerfil .linha_sup_status 
+    {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        margin-bottom: 1%;
+        margin-left: 6.5%;
+    }
+
+
+/* posiciona o texto "administrador/cadastro" */    
+#GestorPerfil .linha_sup_esq
+    {
+        text-transform: capitalize;
+        border-radius: 10px;      
+         
+        display: flex;            
+        color: var(--cinzaclaro);
+        font-size: 16px;
+
+        /* display: flex;
+        justify-content: space-evenly;*/
+
+        padding: 10px;
+        padding-top: 6px;
+        /*flex-direction: row-reverse;     */ 
+    }
+
+
+
+#GestorPerfil .limiteformulario
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 2%;
+        margin-left: 3%;
+        padding-top: 1vh;
+        width: 58vw;
+        height: 74vh;
+        
+
+        border-top: 10px solid var(--azulClaro);
+        border-bottom: 10px solid var(--azulClaro);
+
+        border-left: 2px solid var(--cinzaclaro);
+        border-right:  2px solid var(--cinzaclaro);
+
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+
+
+#GestorPerfil .fotoNovoUsuario img
+    {
+        width: 7vw; /*define o tamanho do formulario 2% maior que os campo*/
+        height: 13vh;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }    
+
+
+#GestorPerfil .linha1 , /*coloca os campos input em linha*/
+#GestorPerfil .linha2 ,
+#GestorPerfil .linha3 ,
+#GestorPerfil .linha4 ,
+#GestorPerfil .linha5 
+    {
+        width: 60vw; /*define o tamanho do formulario */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    } 
+
+
+
+#GestorPerfil .linha1Coluna1 , /*define o espaçamentos entre as linhas*/
+#GestorPerfil .linha1Coluna2 ,
+#GestorPerfil .linha2Coluna1 ,
+#GestorPerfil .linha2Coluna2 ,
+#GestorPerfil .linha3Coluna1 ,
+#GestorPerfil .linha3Coluna2 ,
+#GestorPerfil .linha3Coluna3 ,
+#GestorPerfil .linha4Coluna1 ,
+#GestorPerfil .linha4Coluna2 ,
+#GestorPerfil .linha4Coluna3 ,
+#GestorPerfil .linha4Coluna4 ,
+#GestorPerfil .linha5Coluna1 ,
+#GestorPerfil .linha5Coluna2 
+    { /*superior, direito, inferior, esquerdo*/
+        padding: 1vh 2vw 1vh 2vw;
+    }
+
+
+
+#GestorPerfil .linha1Coluna1 label, /*define a configuração label dos campos input */
+#GestorPerfil .linha1Coluna2 label,
+#GestorPerfil .linha2Coluna1 label,
+#GestorPerfil .linha2Coluna2 label,
+#GestorPerfil .linha3Coluna1 label,
+#GestorPerfil .linha3Coluna2 label,
+#GestorPerfil .linha3Coluna3 label,
+#GestorPerfil .linha4Coluna1 label,
+#GestorPerfil .linha4Coluna2 label,
+#GestorPerfil .linha4Coluna3 label,
+#GestorPerfil .linha4Coluna4 label,
+#GestorPerfil .linha5Coluna1 label,
+#GestorPerfil .linha5Coluna2 label
+    {  /*superior, direito, inferior, esquerdo*/
+        padding: 0vh 0vw 0vh 3px;
+        display: flex;
+    }
+
+#GestorPerfil .linha1 {
+    padding: 1vh 0vw 0vh 0px;
+    }
+
+
+#GestorPerfil .linha1Coluna1 input, /*define a configuração dos campos input */
+#GestorPerfil .linha1Coluna2 input,
+#GestorPerfil .linha2Coluna1 input,
+#GestorPerfil .linha2Coluna2 input,
+#GestorPerfil .linha3Coluna1 input,
+#GestorPerfil .linha3Coluna2 input,
+#GestorPerfil .linha3Coluna3 input,
+#GestorPerfil .linha4Coluna1 input,
+#GestorPerfil .linha4Coluna2 input,
+#GestorPerfil .linha4Coluna3 input,
+#GestorPerfil .linha4Coluna4 input,
+#GestorPerfil .linha5Coluna1 input,
+#GestorPerfil .linha5Coluna2 input
+    {
+      /*  border-radius: 15px;arredonda os campos de input 
+        border: solid 1px;*/
+        padding: 1vh 1vw 1vh 0vw;
+
+        height: 25px;
+        width: 250px;
+        border-radius: 7px;
+        border: solid 1px;
+        text-indent: 5px;
+        font-size: 15px;
+        color: var(--cinzaclaro);
+    }
+
+#GestorPerfil .linha5 {
+    margin-bottom: 4vh;
+}
+
+
+
+
+
+#GestorPerfil .linha1Coluna1 input, /*define a configuração dos campos input */
+#GestorPerfil .linha1Coluna2 input
+    {
+        width: 26vw; /*define o tamanho dos campos do formulario */    
+    }
+
+
+
+
+#GestorPerfil .linha3Coluna1 input,
+#GestorPerfil .linha3Coluna2 input,
+#GestorPerfil .linha3Coluna3 input
+    {
+        width: 16vw; /*define o tamanho dos campos do formulario */    
+    }
+
+
+#GestorPerfil .linha4Coluna1 input,
+#GestorPerfil .linha4Coluna2 input,
+#GestorPerfil .linha4Coluna3 input,
+#GestorPerfil .linha4Coluna4 input
+    {
+        width: 11vw; /*define o tamanho dos campos do formulario */    
+    }
+
+
+/* Main */
+/* Quando a resolução for menor que 820px esconde o campo de busca */
+@media screen and (max-width: 750px) 
+{
+
+    #GestorPerfil .fotoNovoUsuario img
+    {
+        width: 18vw; /*define o tamanho do formulario 2% maior que os campo*/
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }  
+    
+ 
+}
+
+
+
+/* Quando a resolução for menor que 760px esconde o campo de busca */
+@media screen and (max-width: 550px) 
+{
+
+    #GestorPerfil .fotoNovoUsuario img
+    {
+        width: 18vw; /*define o tamanho do formulario 2% maior que os campo*/
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    } 
+
+}
+
+
+/* Quando a resolução for menor que 408px esconde o campo de busca */
+@media screen and (max-width: 408px) 
+{
+
+    #GestorPerfil .fotoNovoUsuario img
+    {
+        width: 18vw; /*define o tamanho do formulario 2% maior que os campo*/
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    } 
+
+
+    
+}
+
+
+/* Quando a resolução for menor que 408px esconde o campo de busca */
+@media screen and (max-width: 370px) 
+{
+    
+}
